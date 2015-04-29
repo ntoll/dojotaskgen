@@ -24,13 +24,13 @@ Usage
 
 It's a simply Python script::
 
-    $ taskgen
+    $ taskgen.py
 
 If it's the first time you've run the script it will scrape the exercises and
 store them to a local `tasks.json` file. It will then output a suggested task.
 If you wish to refresh the task cache use the `refresh` argument::
 
-    $ taskgen refresh
+    $ taskgen.py refresh
 
 That's it!
 
